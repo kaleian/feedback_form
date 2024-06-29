@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
+#feedback {
+    position: fixed;
+    max-width: 600px;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    left: 0;
+    
+}
+#list{
+    position: absolute;
+    max-width: 600px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:70% ;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+h2 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+ 
+}
+
+input[type="submit"]:hover {
+    background-color: #393d39;
+}
+
+.feedback-entry {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: left;
+   
+}
+
+.feedback-entry p {
+    margin: 5px 0;
+    padding: 5px;
+}
+.feedback-entry #time{
+    position: absolute;
+    font-size: 10px;
+    top: 0;
+    right: 2px;
+    color: gray;
+
+}
+.feedback-entry #username{
+    position: absolute;
+    font-size: 10px;
+    top: 0;
+    left: 2px;
+    color: gray;
+
+}
+.feedback-entry #id{
+    visibility: hidden;
+
+}
+.feedback-entry #email{
+    position: absolute;
+    font-size: 10px;
+    bottom: 0;
+    align-self: center;
+    color: gray;
+
+}
+.feedback-entry #feedbacks{
+    padding: 20px;
+    margin: 20px;
+}
